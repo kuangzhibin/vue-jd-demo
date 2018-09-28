@@ -6,7 +6,6 @@ import router from './router'
 import vuescroll from 'vuescroll/dist/vuescroll-slide';
 import 'vuescroll/dist/vuescroll.css';
 import fastclick from 'fastclick';
-import 'normalize.css';
 
 fastclick.attach(document.body)
 Vue.use(vuescroll);
