@@ -29,6 +29,7 @@ export default {
   data () {
     return {
       swiperNewsOption: {
+        allowTouchMove : false,
         direction : 'vertical',
         autoplay: true,
         loop : true
