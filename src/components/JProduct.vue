@@ -4,7 +4,7 @@
       <li>
         <a href="javascript:;">
           <img src="../assets/img/Pitem1.jpg" alt="">
-          <p class="name" style="-webkit-box-orient: vertical;">暴风AI电视4 40X 40英寸全高清互联网平板液晶显示网络电视机wifi（黑色）</p>
+          <p class="name">暴风AI电视4 40X 40英寸全高清互联网平板液晶显示网络电视机wifi（黑色）</p>
           <p class="price">
             ￥&nbsp;
             <span class="price-big ignore">1099</span>
@@ -19,7 +19,7 @@
       <li>
         <a href="javascript:;">
           <img src="../assets/img/Pitem2.jpg" alt="">
-          <p class="name" style="-webkit-box-orient: vertical;">越南进口红心火龙果 4个装 单果约330~420g 新鲜水果</p>
+          <p class="name">越南进口红心火龙果 4个装 单果约330~420g 新鲜水果</p>
           <p class="price">
             ￥&nbsp;
             <span class="price-big ignore">32</span>
@@ -34,7 +34,7 @@
       <li>
         <a href="javascript:;">
           <img src="../assets/img/Pitem3.jpg" alt="">
-          <p class="name" style="-webkit-box-orient: vertical;">海买 熟冻野生加拿大北极甜虾（MSC认证） 400g/袋 50-60只 海鲜水产</p>
+          <p class="name">海买 熟冻野生加拿大北极甜虾（MSC认证） 400g/袋 50-60只 海鲜水产</p>
           <p class="price">
             ￥&nbsp;
             <span class="price-big ignore">23</span>
@@ -49,7 +49,7 @@
       <li>
         <a href="javascript:;">
           <img src="../assets/img/Pitem4.jpg" alt="">
-          <p class="name"  style="-webkit-box-orient: vertical;">CSS世界 HTML5 JavaScript 网页制作 web前端开发 网页设计 图书籍</p>
+          <p class="name" >CSS世界 HTML5 JavaScript 网页制作 web前端开发 网页设计 图书籍</p>
           <p class="price">
             ￥&nbsp;
             <span class="price-big ignore">48</span>
@@ -101,13 +101,17 @@ export default {
         }
         .name{
           overflow: hidden;
+          font-size: 24px;
+          line-height: 1.4;
+          height: 8.96vw;
           text-overflow: ellipsis;
           word-break: break-all;
           display: -webkit-box;
-          /* autoprefixer: off */
+          /*! autoprefixer: off */
           -webkit-box-orient: vertical;
           /* autoprefixer: on */
           -webkit-line-clamp: 2;
+          line-clamp: 2;
           margin: 10px 0 6px;
           padding: 0 8px;
         }
