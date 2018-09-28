@@ -67,7 +67,6 @@ export default {
   height: 100%;
   display: flex;
   align-items: stretch;
-  padding: 100px 0;
   background-color: #fff;
   overflow: hidden;
   color: #333;

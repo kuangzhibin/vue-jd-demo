@@ -53,51 +53,52 @@ export default {
 }
 .fold-left-enter-active {
     animation-name: fold-left-in;
-    animation-duration: .3s;
+    animation-duration: .2s;
   }
   .fold-left-leave-active {
     animation-name: fold-left-out;
-    animation-duration: .3s;
+    animation-duration: .2s;
   }
 .fold-right-enter-active {
     animation-name: fold-right-in;
-    animation-duration: .3s;
+    animation-duration: .2s;
   }
   .fold-right-leave-active {
     animation-name: fold-right-out;
-    animation-duration: .3s;
+    animation-duration: .2s;
+
   }
 
   @keyframes fold-left-in {
     0% {
-      transform: translate3d(100%, 0, 0);
+      left: 100%;
     }
     100% {
-      transform: translate3d(0, 0, 0);
+      left: 0;
     }
   }
   @keyframes fold-left-out {
     0% {
-      transform: translate3d(0, 0, 0);
+      left: 0;
     }
     100% {
-      transform: translate3d(-100%, 0, 0);
+      left: -100%;
     }
   }
   @keyframes fold-right-in {
     0% {
-      transform: translate3d(-100%, 0, 0);
+      left: -100%;
     }
     100% {
-      transform: translate3d(0, 0, 0);
+      left: 0;
     }
   }
   @keyframes fold-right-out {
     0% {
-      transform: translate3d(0, 0, 0);
+      left: 0;
     }
     100% {
-      transform: translate3d(100%, 0, 0);
+      left: 100%;
     }
   }
 </style>

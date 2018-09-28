@@ -1,5 +1,5 @@
 <template>
-  <div class="container" flexcontainer>
+  <div class="container">
     <JHeader :opacity="opacity"></JHeader>
     <JSlider ref="slide" :initData="sliders"></JSlider>
     <JActivity></JActivity>
@@ -18,7 +18,6 @@ import JString from './JString.vue'
 import JNews from './JNews.vue'
 import JGuang from './JGuang.vue'
 import JProduct from './JProduct.vue'
-import JFooter from './JFooter.vue'
 export default {
   name: 'HelloWorld',
   components: {
@@ -28,8 +27,7 @@ export default {
     JString,
     JNews,
     JGuang,
-    JProduct,
-    JFooter
+    JProduct
   },
   data () {
     return {
@@ -79,6 +77,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container{
-  padding-bottom: 100px;
+  position: relative;
 }
 </style>

@@ -26,7 +26,11 @@ export default {
 
 <style lang="css" scoped>
 .PClass{
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  top: 100px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
 }
 </style>
