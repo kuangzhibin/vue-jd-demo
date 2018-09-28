@@ -1,6 +1,6 @@
 <template>
   <div class="topHeader" :class="{noMain: !main}" :style="backgroundColor">
-    <div class="ticon tleft"></div>
+    <div class="ticon tleft" @click="changeRoute"></div>
     <form class="search" action="/">
       <div class="logo-jd"></div>
       <div class="div-dilive"></div>
@@ -35,6 +35,11 @@ export default {
   data () {
     return {
 
+    }
+  },
+  methods: {
+    changeRoute(){
+      this.$router.push(this.main ? '/class' : '/')
     }
   }
 }
