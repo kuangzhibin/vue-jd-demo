@@ -69,7 +69,6 @@ export default {
   mounted() {
     var self = this;
     var height = self.$refs.slide.$el.clientHeight;
-    console.log(height);
     window.addEventListener('scroll', function () {
       self.opacity= Math.min((document.documentElement.scrollTop || document.body.scrollTop), height) / height;
     })
